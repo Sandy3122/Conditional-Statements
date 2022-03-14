@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container
+        {
+            border:2px solid red;
+            height:500px;
+            display:flex;
+
+            /* flex-direction: row|column|row-reverse & flex-direction is used to discribe the direction of elements/ items */
+
+           /*flex-direction:row; //by default it is in row */
+           /*flex-direction:column;*/
+           /*flex-direction:column-reverse; //it reverse the items */
+           /*flex-direction:row-reverse;*/
+
+           /*flex-wrap is used to align items responsively in different devices*/
+
+           /*flex-wrap:nowrap; /*By default*/
+          flex-wrap:wrap;
+
+         /* flex-flow:row wrap;*/
+         /*flex-flow:column wrap;*/
+
+         /*justify-content:; is used to justify the content in the container*/
+
+         justify-content:center;
+         /*justify-content:start;*/ /*By default*/
+         /*justify-content:space-between;*/
+         /*justify-content:space-around;*/
+         /*justify-content:space-evenly;*/
+
+         align-items:center;
+         align-items:flex-end;
+         align-items:flex-start;
+         align-items:stretch;
+
+        }
+
+    .item
+    {
+        border:2px solid blue;
+        margin: 5px;
+        padding:4px;
+        width:80px;
+        height:60px;
+        align-self:center;
+        /*align-self:flex-start;*/   /*By default*/
+        align-self:flex-end;
+
+        
+    }
+
+    #item1{
+        order:12;
+        flex-grow:2;
+        flex-shrink:2;
+
+
+    }
+
+    #item2{
+        order:20;
+
+        /*flex-basis:; is depend upon the flex-direction:; and if flex-direction:row; then flex-basis:; is works on width of the element;  if flex-direction:colun; then flex-basis:; is works on height of the element*/
+        flex-basis:300px;
+        /*flex:2 2  300px;*/
+        /*align-self:center;*/
+
+
+    }
+
+    #item3{
+        order:18;
+
+    }
+
+         
+
+    </style>
+</head>
+<body>
+
+   <div class="container">
+       <div class="item" id="item1">First Box</div>
+       <div class="item" id="item2">Second Box</div>
+       <div class="item" id="item3">Third Box</div>
+       <!-- <div class="item" id="items4">Fourth Box</div>
+       <div class="item" id="items5">Fivth Box</div>          to items design
+       <div class="item" id="items6">Sixth Box</div> -->
+   </div>
+    
+</body>
+</html>

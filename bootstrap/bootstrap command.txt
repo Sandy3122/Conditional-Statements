@@ -1,0 +1,3 @@
+<link rel="stylesheet" type="text/css" href="..bootstrap/css/bootstrap.min.css">            If the bootstrap folder is outside the html folder.
+
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">              If the bootstrap folder is within the html file.

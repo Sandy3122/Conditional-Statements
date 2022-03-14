@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Calci Operations</title>
+
+</head>
+
+<body style="background:palegreen;">
+	<center><h1>Arthematic Operations</h1>
+	<input type="text" name="" id="a">
+	<input type="text" name="" id="b"><br/><br/>
+	<center><button onclick="add()">Calculate</button></center>
+	<h1>Output Is :</h1>
+	<h1 id="output">--</h1>
+
+	<textarea id="output2" name=""></textarea></center>
+	
+
+</body>
+
+
+<script>
+
+	function add()	
+
+	{
+		var value1=parseInt(document.getElementById('a').value);
+		var value2=parseInt(document.getElementById('b').value);
+
+		value3=value1+value2;
+		value4=(value1)-(value2);
+		value5=(value1)*(value2);
+		value6=(value1)/(value2);
+
+
+		alert("Additon ="+value3 +"  "+ "Subtraction = "+value4 +"  "+ "Multiplication = "+value5+"  "+ "Division = "+value6);
+
+
+
+		document.getElementById('output').innerHTML="Additon = "+value3 +"  "+ "Subtraction = "+value4 +"  "+ "Multiplication = "+value5+"  "+ "Division = "+value6;
+
+
+		document.getElementById('output2').value="Addition = "+value3 +"  "+ "Subtraction = "+value4 +"  "+ "Multiplication = "+value5+"  "+ "Division = "+value6;
+
+
+
+	}
+
+
+
+</script>
+
+</html>

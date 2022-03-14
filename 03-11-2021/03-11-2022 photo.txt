@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>New Window</title>
+<style>
+.parent{
+      height:800px;
+      width:800px;
+      background:purple
+}
+
+</style>
+</head>
+
+<body>
+<div class="parent"><br/>
+
+<center><img src="sandeep.jpeg" height="200" width="200"/></center>
+<img src="sona.jpeg" height="200" width="200"/>
+<center><img src="sona.jpeg" height="200" width="200"/></center>
+
+
+
+</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

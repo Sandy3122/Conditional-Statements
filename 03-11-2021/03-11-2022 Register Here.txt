@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>New Page</title>
+<style>
+.abc{
+     height:750px;
+     width:800px;
+     background:purple;
+     color:white}
+.white{
+color:black
+}
+
+</style>
+</head>
+
+
+<body>
+<div class="abc">
+<center><h1 class="white">Register Here</h1></center>
+<hr/>
+
+<span>Enter Username</span>
+<input type="text"placeholder="Enter Full Name"/><br/><br/>
+
+<span>Enter Password</span>
+<input type="password"placeholder="Enter password"/>
+
+
+<br/><br/>
+
+<span>Confirm Password</span>
+<input type="text"placeholder="Confirm password"/>
+<br/><br/>
+
+<span>Enter Email Id :</span>
+<input type="email" placeholder="Enter Mail Id"/>
+
+<br/><br/> 
+
+<span>Select your Gender :</span>
+Male<input type = "radio" name="gender"/>
+Female<input type = "radio" name="gender"/><br/><br/>
+
+<span>Qualification</span>
+<select>
+<option>select</option>
+<option>10th</option>
+<option>Intermediate</option>
+<option>Diploma</option>
+<option>ITI</option>
+<option>B.tech</option>
+<option>M.tech</option>
+
+</select><br/><br/>
+
+<span> Select your Branch : </span>
+<select>
+<option>Select</option>
+<option>Software Eng</option>
+<option>Computer science Eng</option>
+<option>Mechanical Eng</option>
+<option>Automobile Eng</option>
+<option>Electronics And Communication Eng</option>
+
+</select><br/><br/>
+
+<span>Select Your Hobbies :</span>
+Cricket<input type="checkbox">
+Swimming<input type="checkbox">
+Reading Books<input type="checkbox">
+Volley Ball<input type="checkbox">
+News Paper<input type="checkbox">
+Exercise<input type="checkbox"><br/><br/>
+
+<span>Select Your DOB :</span>
+<input type="date"><br/><br/>
+<span>Enter Your Address :</span>
+<textarea></textarea><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+<center><input type="submit"></center>
+
+
+
+</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

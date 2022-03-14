@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility</title>
+    <style>
+        .box{
+            
+            border:2px solid blue;
+            width:70px;
+            height:50px;
+            margin:4px;
+        }
+
+        #a{
+            background-color:rgb(202, 103, 32);
+            /* visibility:visible; */
+            /* visibility:collapse; */
+            /* visibility:hidden; */
+            /* display:none; */
+            position: relative;
+            z-index:25;
+        }
+        #b{
+            border:2px solid rgb(230, 30, 30);
+            background-color:cyan;
+            position: relative;
+            z-index:20;
+            bottom:25px;
+        }
+        #c{
+            border:2px solid rgb(230, 30, 30);
+            background-color:yellow;
+            position: relative;
+            z-index:20;
+        }
+        #d{
+            background-color:orange;
+            position: relative;
+            z-index:25;
+            bottom:25px;
+        }
+        
+    </style>
+</head>
+<body>
+<center>
+    <div class="box" id="a"></div>
+    <div class="box" id="b"></div>
+    <div class="box" id="c"></div>
+    <div class="box" id="d"></div>
+</center>
+</body>
+</html>
